@@ -80,7 +80,6 @@ blockquote b
 blockquote:before,
 blockquote:after {
     font-family: Arial, serif;
-    font-size: 10em;
     vertical-align: middle;
     line-height: 0
 }
@@ -91,14 +90,16 @@ blockquote:before {
     position: absolute;
     top: 82px;
     left: 40px;
+    font-size: 8em;
 }
 
 blockquote:after {
     content: close-quote;
     margin-left: 3px;
     position: absolute;
-    bottom: 22px;
-    right: 40px;
+    bottom: 2px;
+    right: 10px;
+    font-size: 15em;
 }
 
 blockquote.blockstyle,
