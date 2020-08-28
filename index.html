@@ -23,7 +23,7 @@
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
 
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
@@ -44,9 +44,9 @@
         <div id="block_content" class="">
           <div class="col-md-8 container">
             <blockquote class="blockstyle">
-              <span class="triangle"></span>
-              <p id="quote-0"></p>              
-              <b id="author-0"></b> 
+              <!-- <span class="triangle"></span> -->
+              <p id="quote-0"></p><br>
+              <b id="author-0"></b>
             </blockquote>
           </div>
         </div>
@@ -56,8 +56,9 @@
         <!-- <img src="background/GEOMETRIC PATTERNS.png" class="d-block" alt="..."> -->
         <div id="block_content">
           <div class="col-md-8 container">
-            <blockquote class="blockstyle"> <span class="triangle"></span>
-              <p id="quote-1"></p>
+            <blockquote class="blockstyle"> 
+              <!-- <span class="triangle"></span> -->
+              <p id="quote-1"></p><br>
               <b id="author-1"></b>
             </blockquote>
           </div>
@@ -68,20 +69,24 @@
         <!-- <img src="background/Marble textured square on a background.jpg" class="d-block" alt="..."> -->
         <div id="block_content">
           <div class="col-md-8 container">
-            <blockquote class="blockstyle"> 
-              <span class="triangle"></span>
-              <p id="quote-2"></p>
+            <blockquote class="blockstyle">
+              <!-- <span class="triangle"></span> -->
+              <p id="quote-2"></p><br>
               <b id="author-2"></b>
             </blockquote>
           </div>
         </div>
       </div>
 
-      <a class="carousel-control-prev arrow-left" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <i class="fa fa-chevron-left">
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+        <div class="arrow-container">
+          <i class="fa fa-chevron-left d-none"></i>
+        </div>
       </a>
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <i class="fa fa-chevron-right">
+        <div class="arrow-container">
+          <i class="fa fa-chevron-right d-none">
+        </div>
       </a>
     </div>
 </body>
