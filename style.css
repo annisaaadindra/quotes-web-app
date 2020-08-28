@@ -161,13 +161,13 @@ blockquote.blockstyle.border-color-yellow>span.triangle:before {
     background-position: center center;
   }
   .carousel-item:nth-child(2) {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/30.jpg");
+    background-image: url("background/download1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
   .carousel-item:nth-child(3) {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img%20(10).jpg");
+    background-image: url("background/timothy-eberly-1mPBkYvbu3w-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
