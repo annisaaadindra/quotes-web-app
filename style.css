@@ -133,9 +133,14 @@ blockquote.blockstyle>span.triangle:before {
     font-style: normal
 }
 
-blockquote.blockstyle:before,
-blockquote.blockstyle:after {
-    color: #f0715f
+blockquote.blockstyle:before
+{
+    color: #f0715f;
+}
+
+blockquote.blockstyle:after 
+{
+    color: grey;
 }
 
 blockquote.blockstyle.border-color-blue {
