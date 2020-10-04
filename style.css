@@ -21,6 +21,24 @@ body
     justify-content: center;
 }
 
+.carousel-item:nth-child(1) {
+    background-image: url("background/download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(2) {
+    background-image: url("background/download1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(3) {
+    background-image: url("background/timothy-eberly-1mPBkYvbu3w-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 .active
 {
     display: flex!important;
@@ -122,17 +140,6 @@ blockquote.blockstyle {
     box-sizing: border-box;
 }
 
-blockquote.blockstyle>span.triangle:before {
-    text-indent: 0;
-    content: "\f0da";
-    font-family: FontAwesome;
-    color: #f0715f;
-    position: absolute;
-    left: -1px;
-    top: 50%;
-    margin-top: -11px;
-    font-style: normal
-}
 
 blockquote.blockstyle:before
 {
@@ -148,32 +155,9 @@ blockquote.blockstyle.border-color-blue {
     border-color: #01b7f2
 }
 
-blockquote.blockstyle.border-color-blue>span.triangle:before {
-    color: #01b7f2
-}
+
 
 blockquote.blockstyle.border-color-yellow {
     border-color: #fdb714
 }
 
-blockquote.blockstyle.border-color-yellow>span.triangle:before {
-    color: #fdb714
-}
-
-.carousel-item:nth-child(1) {
-    background-image: url("background/download.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  .carousel-item:nth-child(2) {
-    background-image: url("background/download1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
-  .carousel-item:nth-child(3) {
-    background-image: url("background/timothy-eberly-1mPBkYvbu3w-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
